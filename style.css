@@ -70,3 +70,78 @@ body {
     border-radius:12px;
     text-align:center !important;
 }
+
+.feedArea {
+    padding-top:15px;
+    border-radius:10px;
+    background-color:white;
+    border:0.5px solid #dbdbdb;
+    border-bottom:1px solid #dbdbdb;
+    text-align:center;
+}
+
+.feedArea > p {
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgba(128, 128, 128, 0.915);
+}
+
+.nav-feed {
+    border-bottom: none !important;
+    padding-bottom:15px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link-1, .nav-link-2 {
+    color:black;
+}
+
+.nav-link-1:hover, .nav-link-2:hover {
+    background-color: white;
+    color:grey;
+    font-family: 20px;
+}
+
+.feed-pic {
+    border-radius:100%;
+    max-width:100px;
+    max-height:75px;
+}
+
+.feedUser {
+    padding-left:20px;
+    font-weight: 300;
+    font-size:28px;
+}
+
+.feedUser > h3 {
+    font-weight: 300;
+    font-size:28px;
+}
+
+.feedUser > p {
+    font-size:18px;
+}
+
+.postFeed {
+    display:flex;
+}
+
+.time {
+    font-style: italic;
+    color:grey;
+    text-align: right;
+    font-size: 15px;
+}
+
+footer {
+    display:flex;
+    justify-content: center;
+    
+}
+
+footer > p {
+    color:grey;
+}
